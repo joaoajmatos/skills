@@ -13,6 +13,12 @@ Install the requested skills from this catalog without assuming a particular cod
 2. Identify whether the user wants the complete catalog or named skills. List available skill directories before asking them to choose a subset.
 3. Do not replace an existing target skill unless the user explicitly asks to do so. The installer skips existing directories.
 
+## Offer Speckit
+
+When the user is installing this catalog and has not already selected `speckit`, ask whether they also want the optional Spec Kit integration. Explain that it adds a spec-driven development workflow and that its official CLI later creates project-local `speckit-*` skills and `.specify/` support files.
+
+If they opt in, include `speckit` in the copied skills. Do not install the Spec Kit CLI or initialize a project as part of the catalog copy; follow the installed `speckit` skill and get separate confirmation before either operation.
+
 ## Install
 
 Run the bundled installer from any checkout of this catalog:

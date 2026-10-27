@@ -54,6 +54,7 @@ Install a small, task-relevant subset when possible:
 | Verification | `create-verification-skill`, `maintain-verification-skill` |
 | Architecture and research | `codebase-design`, `domain-modeling`, `improve-codebase-architecture`, `research`, `code-review` |
 | Collaboration | `Council`, `grilling`, `handoff` |
+| Specification-driven development | `speckit` |
 | UI and design | `ui-ux-pro-max`, `impeccable` |
 
 ## Portability
@@ -83,5 +84,6 @@ Imported skills retain their upstream content and licensing. This catalog docume
 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/main/.claude/skills/ui-ux-pro-max) | `ui-ux-pro-max` | MIT |
 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable/tree/main/.agents/skills/impeccable) | `impeccable` | Apache-2.0 |
 | [danielmiessler/LifeOS](https://github.com/danielmiessler/LifeOS/tree/main/LifeOS/install/skills/Council) | `Council` | MIT |
+| [github/spec-kit](https://github.com/github/spec-kit) | `speckit` integration skill | MIT |
 
 `create-verification-skill` and `maintain-verification-skill` are adapted only to replace Cursor- and Claude-specific paths with the generic `<project-skills-dir>` convention. Refer to upstream repositories for complete license terms and notices.
