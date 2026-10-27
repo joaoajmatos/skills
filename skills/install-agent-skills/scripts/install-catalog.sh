@@ -74,7 +74,7 @@ fi
 
 for skill in $selection; do
   case "$skill" in
-    *[!a-z0-9-]*|'')
+    *[!ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-]*|'')
       printf 'Invalid skill name: %s\n' "$skill" >&2
       exit 2
       ;;
