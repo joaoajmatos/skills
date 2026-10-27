@@ -53,7 +53,7 @@ Install a small, task-relevant subset when possible:
 | Engineering discipline | `correct`, `principle-attack-the-premise`, `principle-exhaust-the-design-space`, `principle-experience-first`, `principle-fix-root-causes`, `reflect` |
 | Verification | `create-verification-skill`, `maintain-verification-skill` |
 | Architecture and research | `codebase-design`, `domain-modeling`, `improve-codebase-architecture`, `research`, `code-review` |
-| Collaboration | `grilling`, `handoff` |
+| Collaboration | `Council`, `grilling`, `handoff` |
 | UI and design | `ui-ux-pro-max`, `impeccable` |
 
 ## Portability
@@ -82,5 +82,6 @@ Imported skills retain their upstream content and licensing. This catalog docume
 | [mattpocock/skills](https://github.com/mattpocock/skills/tree/main/skills) | architecture, research, review, and collaboration skills | MIT |
 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/main/.claude/skills/ui-ux-pro-max) | `ui-ux-pro-max` | MIT |
 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable/tree/main/.agents/skills/impeccable) | `impeccable` | Apache-2.0 |
+| [danielmiessler/LifeOS](https://github.com/danielmiessler/LifeOS/tree/main/LifeOS/install/skills/Council) | `Council` | MIT |
 
 `create-verification-skill` and `maintain-verification-skill` are adapted only to replace Cursor- and Claude-specific paths with the generic `<project-skills-dir>` convention. Refer to upstream repositories for complete license terms and notices.
